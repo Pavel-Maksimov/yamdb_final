@@ -41,7 +41,7 @@ Python3, Django 3.0, Simple JWT, PostgreSQL, Git, Pytest.
 Для развёртывания проекта выполните следующие действия:<br>
 Клонируйте репозиторий:
 ```
-git clone https://github.com/Pavel-Maksimov/REST-API-Yatube.git
+git clone https://github.com/Pavel-Maksimov/yamdb_final.git
 ```
 Находясь в корневой папке проекта, выполните команду:
 ```
