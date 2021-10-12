@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '---')
 
 DEBUG = os.environ.get('DEBUG', True)
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', ['178.154.195.76', 'localhost', '127.0.0.1', 'web'])
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', ['localhost', '127.0.0.1', 'web'])
 
 AUTH_USER_MODEL = 'api.YaUser'
 
