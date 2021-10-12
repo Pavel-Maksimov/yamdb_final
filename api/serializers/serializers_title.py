@@ -43,8 +43,7 @@ class TitleSerializer(serializers.ModelSerializer):
             genres_list = validated_data.pop('genre')
             for genre in genres_list:
                 TitleGenre.objects.get_or_create(genre=genre, title=title)
-        title = super().update(title, validated_data)
-        return title
+        return super().update(title, validated_data)
 
 
 class TitleListSerializer(serializers.ModelSerializer):
@@ -63,4 +62,4 @@ class TitleListSerializer(serializers.ModelSerializer):
         rating = rating['average_score']
         if rating is not None:
             rating = round(rating, 1)
-        return rating
+        return round(rating, 1) if rating is not None else rating
