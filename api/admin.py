@@ -8,6 +8,7 @@ from .models.comment import Comment
 from .models.genre import Genre
 from .models.review import Review
 from .models.title import Title
+from .models.titlegenre import TitleGenre
 
 admin.site.site_header = 'YaMDb API'
 
@@ -56,3 +57,8 @@ class TitleAdmin(admin.ModelAdmin):
     search_fields = ("name", "year", "description", "category",)
     list_filter = ("year", "category",)
     empty_value_display = "-пусто-"
+
+
+@admin.register(TitleGenre)
+class TitleGenreAdmin(admin.ModelAdmin):
+    list_display = ('title', 'genre',)
