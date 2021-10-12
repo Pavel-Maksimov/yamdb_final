@@ -1,3 +1,4 @@
+![yamdb workflow](https://github.com/Pavel-Maksimov/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # REST-API-Yatube
 Yamdb - это  база данных с отзывами пользователей о фильмах, книгах, музыке.<br>
 Произведения делятся на категории: «Книги», «Фильмы», «Музыка». Список категорий может быть расширен администратором.<br>
