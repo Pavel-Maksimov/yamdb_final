@@ -78,6 +78,11 @@ $ docker exec -it <container_id> python manage.py loaddata fixtures.json
 $ docker-compose down
 ```
 Посмотреть работу проекта можно по ссылкам:<br>
+***http://pavelmaksimov.co.vu/redoc/***<br>
  ***http://pavelmaksimov.co.vu/admin/*** <br>
-***http://pavelmaksimov.co.vu/api/v1/***<br>
-***http://pavelmaksimov.co.vu/redoc/***
+***http://pavelmaksimov.co.vu/api/v1/users/***<br>
+***http://pavelmaksimov.co.vu/api/v1/titles/***<br>
+***http://pavelmaksimov.co.vu/api/v1/categories/***<br>
+***http://pavelmaksimov.co.vu/api/v1/genres/***<br>
+***http://pavelmaksimov.co.vu/api/v1/reviews/***<br>
+***http://pavelmaksimov.co.vu/api/v1/comments/***<br>
