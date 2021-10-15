@@ -13,7 +13,6 @@ services:
     image: pavel8maksimov/yamdb
     restart: always
     volumes:
-      -./static/redoc.yaml:/code/static/redoc.yaml
       - static_value:/code/static/
       - media_value:/code/media/
       - migrations:/code/api/migrations
