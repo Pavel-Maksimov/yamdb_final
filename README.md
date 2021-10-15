@@ -84,5 +84,8 @@ $ docker-compose down
 ***http://pavelmaksimov.co.vu/api/v1/titles/***<br>
 ***http://pavelmaksimov.co.vu/api/v1/categories/***<br>
 ***http://pavelmaksimov.co.vu/api/v1/genres/***<br>
-***http://pavelmaksimov.co.vu/api/v1/reviews/***<br>
-***http://pavelmaksimov.co.vu/api/v1/comments/***<br>
+***http://pavelmaksimov.co.vu/api/v1/titles/1/reviews/***<br>
+***http://pavelmaksimov.co.vu/api/v1/titles/2/reviews/***<br>
+***http://pavelmaksimov.co.vu/api/v1/titles/2/reviews/1/comments/***<br>
+***http://pavelmaksimov.co.vu/api/v1/titles/1/reviews/2/comments/***<br>
+
